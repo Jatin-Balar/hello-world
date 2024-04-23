@@ -8,12 +8,12 @@ public class HelloWorldController {
 
 	@GetMapping("/")
 	public String helloWorld2() {
-		return "hello world this is app services..................!";
+		return "hello world this is app services with java..................!";
 	} 
 
 	@GetMapping("/abc")
 	public String helloWorld3() {
-		return "hello world this is app services..................!";
+		return "hello world this is app services with jav..................!";
 	} 
 	@GetMapping("/hello-world")
 	public String helloWorld() {
